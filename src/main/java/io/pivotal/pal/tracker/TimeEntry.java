@@ -72,4 +72,20 @@ public class TimeEntry {
 
         this.id = id;
     }
+
+    public long getProjectId() {
+        return projectId;
+    }
+
+    public long getUserId() {
+        return userId;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public int getHours() {
+        return hours;
+    }
 }
